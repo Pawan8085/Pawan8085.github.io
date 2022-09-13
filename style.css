@@ -1,0 +1,197 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #23283e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#myheader{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#javalogo{
+    position: relative;
+}
+#javalogo>img{
+    width: 40px;
+    position: absolute;
+}
+#darkmode{
+    width: 3%;
+    cursor: pointer;
+    
+}
+#psc{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+#psc>p{
+    margin-right: 20px;
+    color: #2978b5;
+    cursor: pointer;
+   
+}
+
+#namesection{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+#name{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#hi{
+    color: #444444;
+    font-size: 2rem;
+}
+#pawan{
+    color: #2978b5;
+    font-size: 2rem;
+}
+#developer{
+    color: #444444;
+}
+
+#psc>p:hover{
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+#psc>p:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #psc>p:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  #summary{
+    color: #768da9;
+  }
+  #linksection{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  #resume{
+   cursor: pointer;
+   color: #2978b5;
+  }
+
+  #resume:hover{
+    text-decoration: underline;
+  }
+  #linkedin{
+    margin-left: 10px;
+    width: 3%;
+    height: 3%;
+    cursor: pointer;
+    
+  }
+  #git{
+    margin-left: 10px;
+    width: 3%;
+    height: 3%;
+    cursor: pointer;
+    
+  }
+
+  #skill{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid gray; */
+    margin: auto;
+    margin-top: 50px;
+
+  }
+  #tskill{
+    text-align: center;
+    color: #444444;
+  }
+
+  #tskillgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 40px;
+    width: 70%;
+    padding: 30px;
+    height: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    
+    
+  }
+  .tsicons{
+    /* border: 1px solid gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .tsicons>img+p{
+    text-align: center;
+    color: #2978b5;
+    
+  }
+  .tsicons>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    
+  }
+  #tool{
+    width: 70%;
+    margin: auto;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #ttool{
+    text-align: center;
+    color: #444444;
+  }
+  #toolgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 40px;
+    width: 70%;
+    padding: 30px;
+    height: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+  }
+  .toolicons{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ 
