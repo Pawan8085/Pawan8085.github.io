@@ -18,7 +18,7 @@ body{
 }
 #javalogo{
     position: relative;
-    margin-top: -38px;
+    margin-top: -50px;
 }
 #javalogo>img{
     width: 40px;
@@ -93,6 +93,7 @@ body{
 
   #summary{
     color: #768da9;
+    text-align: justify;
   }
   #linksection{
     display: flex;
@@ -102,6 +103,7 @@ body{
   #resume{
    cursor: pointer;
    color: #2978b5;
+   text-decoration: none;
   }
 
   #resume:hover{
@@ -274,6 +276,9 @@ body{
   #skill{
     width: 70%;
   }
+  #name{
+    width: 460px;
+  }
 }
 
 @media all and (min-width:900px) and (max-width:1045px){
@@ -293,6 +298,9 @@ body{
 
   #tool{
     width: 80%;
+  }
+  #name{
+    width: 400px;
   }
 }
 
@@ -321,6 +329,13 @@ body{
   }
   #toolgrid{
     width: 80%;
+  }
+
+  #name{
+    width: 380px;
+  }
+  #darkmode{
+    width: 4%;
   }
 }
 
@@ -354,6 +369,24 @@ body{
     width: 80%;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
+  }
+  #name{
+    width: 300px;
+  }
+
+  #hi{
+    font-size: 1.4rem;
+  }
+
+  #pawan{
+    font-size: 1.4rem;
+  }
+
+  #developer{
+    font-size: 1rem;
+  }
+  #darkmode{
+    width: 4%;
   }
 }
 
@@ -395,6 +428,23 @@ body{
   #darkmode{
     width: 4%;
   }
+  #name{
+    width: 250px;
+  }
+
+  #hi{
+    font-size: 1.4rem;
+  }
+
+  #pawan{
+    font-size: 1.4rem;
+  }
+
+  #developer{
+    font-size: 1rem;
+
+  }
+  
 }
 
 @media all and (min-width:480px) and (max-width:649px){
@@ -430,6 +480,23 @@ body{
   #darkmode{
     width: 4%;
   }
+  #name{
+    width: 240px;
+  }
+
+  #hi{
+    font-size: 1.4rem;
+  }
+
+  #pawan{
+    font-size: 1.4rem;
+  }
+
+  #developer{
+    font-size: 1rem;
+
+  }
+
 }
 
 @media all and (min-width:100px) and (max-width:480px){
@@ -465,7 +532,34 @@ body{
   }
 
   #darkmode{
-    width: 4%;
+    width: 5%;
+  }
+
+  #javalogo{
+    margin-top: -19px;
+  }
+  #name{
+    width: 210px;
+  }
+
+  #hi{
+    font-size: 1.0rem;
+  }
+
+  #pawan{
+    font-size: 1.0rem;
+  }
+
+  #developer{
+    font-size: 0.8rem;
+
+  }
+  #psc>a{
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  #javalogo>img{
+    width: 20px;
   }
 }
 .sourcecode{
