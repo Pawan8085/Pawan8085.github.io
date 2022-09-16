@@ -59,3 +59,7 @@ function s2(){
     window.location.href='https://github.com/Pawan8085/Pawan-Kumar/tree/main/yt';
 }
 
+document.querySelector('#contactlink>a+a+img').addEventListener('click',linkedinContact);
+function linkedinContact(){
+    window.location.href='https://www.linkedin.com/in/pawan-kumar-8589b3232';
+}

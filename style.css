@@ -111,8 +111,8 @@ body{
   }
   #linkedin{
     margin-left: 10px;
-    width: 4%;
-    height: 4%;
+    width: 5%;
+    height: 5%;
     cursor: pointer;
     
   }
@@ -126,9 +126,8 @@ body{
 
 
   #picture>img{
-    width: 170px;
-    /* border-bottom-left-radius: 1000px;
-    border-bottom-right-radius: 1000px; */
+    width: 250px;
+    
   }
   #skill{
     width: 60%;
@@ -250,6 +249,39 @@ body{
     font-weight: 600;
   }
  
+  #contact{
+    width: 100%;
+   background-color: #dde6ea;
+   
+  }
+  
+  #c_heading{
+    text-align: center;
+  }
+  #contactlink{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    width: 48%;
+    margin: auto;
+  }
+  #contactlink>a>p{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  #contactlink>a+a>p{
+    width: 18%;
+  }
+  #contactlink>a+a+img{
+    width: 4%;
+    cursor: pointer;
+    
+  }
+  #linkedincontact{
+    width: 5%;
+  }
+  
+  
 
   @media all and (min-width:1195px) and (max-width:1330px){
     #project{
@@ -279,6 +311,9 @@ body{
   #name{
     width: 460px;
   }
+  #contactlink>a+a+img{
+    width: 5%;
+  }
 }
 
 @media all and (min-width:900px) and (max-width:1045px){
@@ -302,6 +337,25 @@ body{
   #name{
     width: 400px;
   }
+
+  #contactlink>a+a+img{
+    width: 6%;
+  }
+   
+  #picture>img{
+    width: 230px;
+    
+  }
+  #linkedin{
+    width: 7%;
+    height: 7%; 
+  }
+  #git{
+    width: 6%;
+    height: 6%;
+    
+  }
+  
 }
 
 @media all and (min-width:774px) and (max-width:899px){
@@ -332,10 +386,28 @@ body{
   }
 
   #name{
-    width: 380px;
+    width: 320px;
   }
   #darkmode{
     width: 4%;
+  }
+  #contactlink>a+a+img{
+    width: 6%;
+  }
+
+  #picture>img{
+    width: 230px;
+    
+  }
+
+  #linkedin{
+    width: 8.5%;
+    height: 8.5%; 
+  }
+  #git{
+    width: 7%;
+    height: 7%;
+    
   }
 }
 
@@ -371,7 +443,11 @@ body{
     grid-template-rows: repeat(2,1fr);
   }
   #name{
-    width: 300px;
+    width: 230px;
+  }
+
+  #picture>img{
+    width: 220px;
   }
 
   #hi{
@@ -387,6 +463,19 @@ body{
   }
   #darkmode{
     width: 4%;
+  }
+
+  #contactlink>a+a+img{
+    width: 7%;
+  }
+  #linkedin{
+    width: 9.5%;
+    height: 9.5%; 
+  }
+  #git{
+    width: 8%;
+    height: 8%;
+    
   }
 }
 
@@ -429,7 +518,11 @@ body{
     width: 4%;
   }
   #name{
-    width: 250px;
+    width: 200px;
+  }
+
+  #picture>img{
+    width: 160px;
   }
 
   #hi{
@@ -442,7 +535,20 @@ body{
 
   #developer{
     font-size: 1rem;
+  }
 
+  #contactlink>a+a+img{
+    width: 9%;
+  }
+
+  #linkedin{
+    width: 10.5%;
+    height: 10.5%; 
+  }
+  #git{
+    width: 9%;
+    height: 9%;
+    
   }
   
 }
@@ -495,6 +601,24 @@ body{
   #developer{
     font-size: 1rem;
 
+  }
+
+  #contactlink>a+a+img{
+    width: 9%;
+  }
+  #myheader{
+    width: 90%;
+  }
+  #namesection{
+    width: 90%;
+  }
+
+  #name{
+    width: 230px;
+  }
+
+  #picture>img{
+    width: 220px;
   }
 
 }
@@ -561,6 +685,35 @@ body{
   #javalogo>img{
     width: 20px;
   }
+
+  #contactlink>a+a+img{
+    width: 10%;
+  }
+
+  #myheader{
+    width: 90%;
+  }
+  #namesection{
+    width: 90%;
+  }
+
+  #name{
+    width: 180px;
+  }
+
+  #picture>img{
+    width: 180px;
+  }
+
+  #linkedin{
+    width: 10.5%;
+    height: 10.5%; 
+  }
+  #git{
+    width: 9%;
+    height: 9%;
+    
+  }
 }
 .sourcecode{
  width: 10%;
@@ -577,3 +730,4 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+
