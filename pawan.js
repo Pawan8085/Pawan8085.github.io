@@ -41,12 +41,13 @@ function linkedin() {
 }
 document.getElementById('d1').addEventListener('click', d1);
 function d1(){
-    window.location.href='https://marvelous-fairy-b620d4.netlify.app/';
+    window.location.href='https://inquisitive-kashata-a201b3.netlify.app/index.html'; 
 }
 
 document.getElementById('d2').addEventListener('click', d2);
 function d2(){
-    window.location.href='https://inquisitive-kashata-a201b3.netlify.app/index.html';
+    
+    window.location.href='https://marvelous-fairy-b620d4.netlify.app/';
 }
 
 document.getElementById('s1').addEventListener('click', s1);
