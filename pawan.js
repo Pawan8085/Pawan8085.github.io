@@ -12,6 +12,7 @@ function func(){
         document.getElementById("hi").style.color="#444444";
         document.getElementById("developer").style.color="#444444";
         document.getElementById("sskillheading").style.color="#444444";
+        document.getElementById("staticheading").style.color="#444444";
         bool=false;
         
     }
@@ -23,6 +24,7 @@ function func(){
         document.getElementById('ttool').style.color="#cdcdff";
         document.getElementById('prjtitle').style.color="#cdcdff";
         document.getElementById('sskillheading').style.color="#cdcdff";
+        document.getElementById('staticheading').style.color="#cdcdff";
         bool=true;
        
     }

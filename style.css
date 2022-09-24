@@ -296,7 +296,7 @@ body{
   }
   #sskillheading{
     text-align: center;
-    color: #445a7c;
+    color: #444444;
    
     
   }
@@ -311,6 +311,7 @@ body{
   }
  #staticheading{
   text-align: center;
+  color: #444444;
  }
   #statics{
     width: 47%;
