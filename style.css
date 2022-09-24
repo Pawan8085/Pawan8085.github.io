@@ -281,7 +281,46 @@ body{
     width: 5%;
   }
   
+  #githubcalender>h3{
+    text-align: center;
+  }
   
+  #softskill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+    width: 30%;
+   
+    margin: auto;
+  }
+  #sskillheading{
+    text-align: center;
+    color: #445a7c;
+   
+    
+  }
+  #softskill>div{
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #768da9;
+  }
+ #staticheading{
+  text-align: center;
+ }
+  #statics{
+    width: 47%;
+    margin: auto;
+   
+
+  }
+  #statics>img{
+    width: 100%;
+  }
 
   @media all and (min-width:1195px) and (max-width:1330px){
     #project{
@@ -293,6 +332,13 @@ body{
       width: 210px;
       
     }
+    #softskill{
+      width: 35%;
+    }
+    #statics{
+      width: 48%;
+    }
+   
 }
 
 @media all and (min-width:1046px) and (max-width:1194px){
@@ -306,7 +352,7 @@ body{
   }
 
   #skill{
-    width: 70%;
+    width: 46%;
   }
   #name{
     width: 460px;
@@ -314,6 +360,13 @@ body{
   #contactlink>a+a+img{
     width: 5%;
   }
+  #softskill{
+    width: 40%;
+  }
+  #statics{
+    width: 48%;
+  }
+  
 }
 
 @media all and (min-width:900px) and (max-width:1045px){
@@ -355,6 +408,14 @@ body{
     height: 6%;
     
   }
+  #softskill{
+    width: 45%;
+  }
+
+  #statics{
+    width: 62%;
+  }
+  
   
 }
 
@@ -409,6 +470,14 @@ body{
     height: 7%;
     
   }
+  #softskill{
+    width: 50%;
+  }
+
+  #statics{
+    width: 72%;
+  }
+  
 }
 
 @media all and (min-width:650px) and (max-width:773px){
@@ -476,6 +545,12 @@ body{
     width: 8%;
     height: 8%;
     
+  }
+  #softskill{
+    width: 55%;
+  }
+  #statics{
+    width: 72%;
   }
 }
 
@@ -550,6 +625,12 @@ body{
     height: 9%;
     
   }
+  #softskill{
+    width: 55%;
+  }
+  #statics{
+    width: 83%;
+  }
   
 }
 
@@ -621,6 +702,16 @@ body{
     width: 220px;
   }
 
+  #softskill{
+    width: 60%;
+  }
+  #softskill>div{
+   font-size: 14px;
+   
+  }
+  #statics{
+    width: 83%;
+  }
 }
 
 @media all and (min-width:100px) and (max-width:480px){
@@ -714,6 +805,17 @@ body{
     height: 9%;
     
   }
+  #softskill{
+    width: 70%;
+  }
+  #softskill>div{
+   font-size: 12px;
+   padding: 7px;
+  }
+
+  #statics{
+    width: 85%;
+  }
 }
 .sourcecode{
  width: 10%;
@@ -731,3 +833,208 @@ body{
   justify-content: space-around;
 }
 
+
+
+:root {
+  --color-calendar-graph-day-bg: #dddbdb;
+  --color-calendar-graph-day-L1-bg: #39dd34;
+  --color-calendar-graph-day-L2-bg: #45a045;
+  --color-calendar-graph-day-L3-bg: #047526;
+  --color-calendar-graph-day-L4-bg: #0a4208;
+}
+
+rect.ContributionCalendar-day[data-level='0'] {
+    fill: var(--color-calendar-graph-day-bg);
+}
+
+rect.ContributionCalendar-day[data-level='1'] {
+    fill: var(--color-calendar-graph-day-L1-bg);
+}
+
+rect.ContributionCalendar-day[data-level='2'] {
+    fill: var(--color-calendar-graph-day-L2-bg);
+}
+
+rect.ContributionCalendar-day[data-level='3'] {
+    fill: var(--color-calendar-graph-day-L3-bg);
+}
+
+rect.ContributionCalendar-day[data-level='4'] {
+    fill: var(--color-calendar-graph-day-L4-bg);
+}
+
+.calendar .width-full > .float-left {
+    display: none;
+}
+
+.calendar {
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 243px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar-graph text.wday,
+.calendar-graph text.month {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.contrib-legend {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    float: right;
+}
+
+.contrib-legend .legend {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+.contrib-legend .legend li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    color: #767676;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    text-align: center;
+}
+
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.contrib-number {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 24px;
+    display: block;
+    color: #333;
+}
+
+.calendar img.spinner {
+    width: 70px;
+    margin-top: 50px;
+    min-height: 70px;
+}
+
+.monospace {
+    text-align: center;
+    color: #000;
+    font-family: monospace;
+}
+
+.monospace a {
+    color: #1D75AB;
+    text-decoration: none;
+}
+
+.contrib-footer {
+    font-size: 11px;
+    padding: 0 10px 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 26px;
+}
+
+.left.text-muted {
+    float: left;
+    margin-left: 9px;
+    color: #767676;
+}
+.left.text-muted a {
+    color: #4078c0;
+    text-decoration: none;
+}
+.left.text-muted a:hover,
+.monospace a:hover {
+    text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
+#user-activity-overview{
+    display:none;
+}
+
+.day-tooltip {
+    white-space: nowrap;
+    position: absolute;
+    z-index: 99999;
+    padding: 10px;
+    font-size: 12px;
+    color: #959da5;
+    text-align: center;
+    background: rgba(0,0,0,.85);
+    border-radius: 3px;
+    display: none;
+    pointer-events: none;
+}
+.day-tooltip strong {
+    color: #dfe2e5;
+}
+.day-tooltip.is-visible {
+    display: block;
+}
+.day-tooltip:after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    box-sizing: border-box;
+    margin: 0 0 0 -5px;
+    content: " ";
+    border: 5px solid transparent;
+    border-top-color: rgba(0,0,0,.85)
+}
+
+text.ContributionCalendar-label {
+    fill: #ccc;
+    font-size: 11px;
+}
+
+#githubcalender{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid gray;
+
+}

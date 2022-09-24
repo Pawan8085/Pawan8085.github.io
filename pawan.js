@@ -11,6 +11,7 @@ function func(){
         document.getElementById('prjtitle').style.color="#444444";
         document.getElementById("hi").style.color="#444444";
         document.getElementById("developer").style.color="#444444";
+        document.getElementById("sskillheading").style.color="#444444";
         bool=false;
         
     }
@@ -21,6 +22,7 @@ function func(){
         document.getElementById('tskill').style.color="#cdcdff";
         document.getElementById('ttool').style.color="#cdcdff";
         document.getElementById('prjtitle').style.color="#cdcdff";
+        document.getElementById('sskillheading').style.color="#cdcdff";
         bool=true;
        
     }
@@ -33,34 +35,41 @@ function resume() {
 }
 document.getElementById("git").addEventListener('click',git);
 function git() {
-    window.location.href="https://github.com/Pawan8085";
+    // window.location.href="https://github.com/Pawan8085";
+    window.open("https://github.com/Pawan8085",'_blank');
 }
 document.getElementById("linkedin").addEventListener('click',linkedin);
 function linkedin() {
-    window.location.href="https://linkedin.com/in/pawan-kumar-8589b3232";
+   let url="https://linkedin.com/in/pawan-kumar-8589b3232";
+    window.open(url,'_blank');
 }
 document.getElementById('d1').addEventListener('click', d1);
 function d1(){
-    window.location.href='https://inquisitive-kashata-a201b3.netlify.app/index.html'; 
+    let url='https://inquisitive-kashata-a201b3.netlify.app/index.html'; 
+    window.open(url,'_blank');
 }
 
 document.getElementById('d2').addEventListener('click', d2);
 function d2(){
     
-    window.location.href='https://marvelous-fairy-b620d4.netlify.app/';
+   let url='https://marvelous-fairy-b620d4.netlify.app/';
+   window.open(url,'_blank');
 }
 
 document.getElementById('s1').addEventListener('click', s1);
 function s1(){
-    window.location.href='https://github.com/sumitraghavwork/bashful-form-6526';
+    let url='https://github.com/sumitraghavwork/bashful-form-6526';
+    window.open(url,'_blank');
 }
 
 document.getElementById('s2').addEventListener('click', s2);
 function s2(){
-    window.location.href='https://github.com/Pawan8085/Pawan-Kumar/tree/main/yt';
+    let url='https://github.com/Pawan8085/Pawan-Kumar/tree/main/yt';
+    window.open(url,'_blank');
 }
 
 document.querySelector('#contactlink>a+a+img').addEventListener('click',linkedinContact);
 function linkedinContact(){
-    window.location.href='https://www.linkedin.com/in/pawan-kumar-8589b3232';
+   let url='https://www.linkedin.com/in/pawan-kumar-8589b3232';
+    window.open(url,'_blank');
 }
