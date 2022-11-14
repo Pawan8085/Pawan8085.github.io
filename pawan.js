@@ -60,6 +60,20 @@ function d2(){
    window.open(url,'_blank');
 }
 
+document.getElementById('d3').addEventListener('click', d3);
+function d3(){
+    
+   let url='https://funny-sorbet-d9b71d.netlify.app/';
+   window.open(url,'_blank');
+}
+
+document.getElementById('d4').addEventListener('click', d4);
+function d4(){
+    
+   let url='https://resplendent-scone-4001e5.netlify.app/';
+   window.open(url,'_blank');
+}
+
 document.getElementById('s1').addEventListener('click', s1);
 function s1(){
     let url='https://github.com/sumitraghavwork/bashful-form-6526';
@@ -69,6 +83,18 @@ function s1(){
 document.getElementById('s2').addEventListener('click', s2);
 function s2(){
     let url='https://github.com/Pawan8085/Pawan-Kumar/tree/main/yt';
+    window.open(url,'_blank');
+}
+
+document.getElementById('s3').addEventListener('click', s3);
+function s3(){
+    let url='https://github.com/Pawan8085/WeatherApplication';
+    window.open(url,'_blank');
+}
+
+document.getElementById('s4').addEventListener('click', s4);
+function s4(){
+    let url='https://github.com/masai-course/Pawan_fw18_1190/tree/master/unit-3/sprint-4/evaluation/U3__c4_';
     window.open(url,'_blank');
 }
 
