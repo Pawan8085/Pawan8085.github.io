@@ -386,6 +386,13 @@ body{
       width: 75%;
     
     }
+    #gitimg1{
+      height: 185px;
+    }
+    #gitimg2{
+      height: 185px;
+     
+    }
    
 }
 
@@ -419,7 +426,13 @@ body{
     width: 80%;
   
   }
-
+  #gitimg1{
+    height: 183px;
+  }
+  #gitimg2{
+    height: 183px;
+   
+  }
   
   
 }
@@ -569,10 +582,10 @@ body{
     width: 100%;
   }
   #gitimg1{
-    height: 157px;
+    height: 156px;
   }
   #gitimg2{
-    height: 157px;
+    height: 156px;
    
   }
   
@@ -847,11 +860,11 @@ body{
   }
   #gitimg1{
     
-    height: 120px;
+    height: 122px;
 
   }
   #gitimg2{
-    height: 120px;
+    height: 122px;
    
   }
 }
