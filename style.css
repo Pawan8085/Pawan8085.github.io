@@ -36,6 +36,13 @@ body{
   flex-wrap: wrap;
 }
 
+  #gitimg1{
+    height: 195px;
+  }
+  #gitimg2{
+    height: 195px;
+   
+  }
 #githubcalender{
   width: 70%;
   
@@ -412,6 +419,7 @@ body{
     width: 80%;
   
   }
+
   
   
 }
