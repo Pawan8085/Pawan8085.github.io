@@ -1,4 +1,6 @@
 
+
+
 body{
     margin: 0px;
     padding: 0px;
@@ -135,19 +137,20 @@ body{
   #summary{
     color: #768da9;
     text-align: justify;
+    
   }
   #linksection{
     display: flex;
     align-items: center;
     position: relative;
   }
-  #resume{
+  .resume{
    cursor: pointer;
    color: #2978b5;
    text-decoration: none;
   }
 
-  #resume:hover{
+  .resume:hover{
     text-decoration: underline;
   }
   #linkedin{
@@ -681,6 +684,7 @@ body{
     height: 138px;
    
   }
+  
   
   
 }
