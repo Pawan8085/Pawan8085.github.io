@@ -1,1037 +1,1040 @@
 
-
-
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #23283e;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0px;
+  padding: 0px;
+  background-color: #23283e;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .tech_stack{
- font-weight: 610;
- color: rgb(87, 125, 190);
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- font-size: 15px;
+font-weight: 610;
+color: rgb(87, 125, 190);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
 }
 #myheader{
-  
-    width: 100%;
-  
-    /* border: 1px solid gray; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   height: 70px;
-   position: fixed;
-  top: 0px;
-   background-color: white;
-  
-   
-  
+
+  width: 100%;
+
+  /* border: 1px solid gray; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ height: 70px;
+ position: fixed;
+top: 0px;
+ background-color: white;
+
+ 
+
 }
 #gitimg{
-  width: 70%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+width: 70%;
+margin: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
 
-  #gitimg1{
-    height: 195px;
-  }
-  #gitimg2{
-    height: 195px;
-   
-  }
+#gitimg1{
+  height: 195px;
+}
+#gitimg2{
+  height: 195px;
+ 
+}
 #githubcalender{
-  width: 70%;
-  
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+width: 70%;
+
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
 
 }
 #javalogo{
-    
-    margin-top: -50px;
-    padding-left: 15%;
-   
-   
+  
+  margin-top: -50px;
+  padding-left: 15%;
+ 
+ 
 }
 #javalogo>img{
-    width: 40px;
-    position: absolute;
+  width: 40px;
+  position: absolute;
 }
 #darkmode{
-    width: 2.5%;
-    cursor: pointer;
-    
+  width: 2.5%;
+  cursor: pointer;
+  
 }
 #psc{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-right: 15%;
-    
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 15%;
+  
 }
 #psc>a{
-    margin-right: 20px;
-    color: #2978b5;
-    cursor: pointer;
-    text-decoration: none;
-   
+  margin-right: 20px;
+  color: #2978b5;
+  cursor: pointer;
+  text-decoration: none;
+ 
 }
 
 #namesection{
-    width: 70%;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   margin-top: 100px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ margin-top: 100px;
+ 
 }
 
 #name{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    width: 590px;
-    
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  width: 590px;
+ 
+  
 }
 #hi{
-    color: #444444;
-    font-size: 2rem;
+  color: #444444;
+  font-size: 2rem;
 }
 #pawan{
-    color: #2978b5;
-    font-size: 2rem;
+  color: #2978b5;
+  font-size: 2rem;
 }
 #developer{
-    color: #444444;
+  color: #444444;
 }
 
 #psc>a:hover{
-    display: inline-block;
-    position: relative;
-    color: #0087ca;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
 }
 #psc>a:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #0087ca;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#psc>a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#summary{
+  color: #768da9;
+  text-align: justify;
+}
+#linksection{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#resume{
+ cursor: pointer;
+ color: #2978b5;
+ text-decoration: none;
+}
+
+#resume:hover{
+  text-decoration: underline;
+}
+#linkedin{
+  margin-left: 10px;
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
   
-  #psc>a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-
-  #summary{
-    color: #768da9;
-    text-align: justify;
-    
-  }
-  #linksection{
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  .resume{
-   cursor: pointer;
-   color: #2978b5;
-   text-decoration: none;
-  }
-
-  .resume:hover{
-    text-decoration: underline;
-  }
-  #linkedin{
-    margin-left: 10px;
-    width: 5%;
-    height: 5%;
-    cursor: pointer;
-    
-  }
-  #git{
-    margin-left: 10px;
-    width: 4%;
-    height: 4%;
-    cursor: pointer;
-    
-  }
-
-
-  #picture>img{
-    width: 250px;
-    
-  }
-  #skill{
-    width: 60%;
-    margin: auto;
-    /* border: 1px solid gray; */
-    margin: auto;
-    margin-top: 50px;
-
-  }
-  #tskill{
-    text-align: center;
-    color: #444444;
-  }
-
-  #tskillgrid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,auto);
-    gap: 40px;
-    width: 70%;
-    padding: 30px;
-    margin: auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    overflow:  hidden;
-    
-    
-  }
-  .tsicons{
-    /* border: 1px solid gray; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    
-  }
-  .tsicons>img+p{
-    text-align: center;
-    color: #2978b5;
-    
-  }
-  .tsicons>img{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    
-  }
-  #tool{
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
-  }
-  #ttool{
-    text-align: center;
-    color: #444444;
-  }
-  #toolgrid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,auto);
-    gap: 40px;
-    width: 70%;
-    padding: 30px;
-    margin: auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  .tsicons{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-  }
-
-  #project{
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
-  }
-  #prjtitle{
-    text-align: center;
-    color: #444444;
-  }
-  #projectgrid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,auto);
-    gap: 40px;
-    width: 70%;
-    padding: 30px;
-    margin: auto;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    
-    
-  }
-  .prjimage{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .prjimage>p+img{
-    width: 250px;
-    border-radius: 5px;
-  }
-  .prjimage>p+img+p{
-    color: #2978b5;
-  }
-  .prjimage>:nth-child(1){
-    color: #2978b5;
-    font-weight: 600;
-  }
- 
-  #contact{
-    width: 100%;
-   background-color: #dde6ea;
-   
-   
-  }
+}
+#git{
+  margin-left: 10px;
+  width: 4%;
+  height: 4%;
+  cursor: pointer;
   
-  #c_heading{
-    text-align: center;
-  }
-  #contactlink{
-    display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-    width: 48%;
-    margin: auto;
-  }
-  #contactlink>a>p{
-    font-weight: bold;
-    font-size: 18px;
-  }
-  #contactlink>a+a>p{
-    width: 18%;
-  }
-  #contactlink>a+a+img{
-    width: 4%;
-    cursor: pointer;
-    
-  }
-  #linkedincontact{
-    width: 5%;
-  }
+}
+
+
+#picture>img{
+  width: 250px;
   
-  #githubcalender>h3{
-    text-align: center;
-  }
-  
-  #softskill{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    gap: 5px;
-    width: 30%;
-   
-    margin: auto;
-  }
-  #sskillheading{
-    text-align: center;
-    color: #444444;
-   
-    
-  }
-  #softskill>div{
-    padding: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #768da9;
-  }
- #staticheading{
+}
+#skill{
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid gray; */
+  margin: auto;
+  margin-top: 50px;
+
+}
+#tskill{
   text-align: center;
   color: #444444;
- }
-  #statics{
-    width: 47%;
+}
+
+#tskillgrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 40px;
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow:  hidden;
+  
+  
+}
+.tsicons{
+  /* border: 1px solid gray; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  
+}
+.tsicons>img+p{
+  text-align: center;
+  color: #2978b5;
+  
+}
+.tsicons>img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  
+}
+#tool{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+#ttool{
+  text-align: center;
+  color: #444444;
+}
+#toolgrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,auto);
+  gap: 40px;
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tsicons{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+#project{
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+#prjtitle{
+  text-align: center;
+  color: #444444;
+}
+#projectgrid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 40px;
+  width: 70%;
+  padding: 30px;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+  
+}
+.prjimage{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.prjimage>p+img{
+  width: 250px;
+  border-radius: 5px;
+}
+.prjimage>p+img+p{
+  color: #2978b5;
+}
+.prjimage>:nth-child(1){
+  color: #2978b5;
+  font-weight: 600;
+}
+
+#contact{
+  width: 100%;
+ background-color: #dde6ea;
+ 
+ 
+}
+
+#c_heading{
+  text-align: center;
+}
+#contactlink{
+  display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+  width: 48%;
+  margin: auto;
+}
+#contactlink>a>p{
+  font-weight: bold;
+  font-size: 18px;
+}
+#contactlink>a+a>p{
+  width: 18%;
+}
+#contactlink>a+a+img{
+  width: 4%;
+  cursor: pointer;
+  
+}
+#linkedincontact{
+  width: 5%;
+}
+
+#githubcalender>h3{
+  text-align: center;
+}
+
+#softskill{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 5px;
+  width: 30%;
+ 
+  margin: auto;
+}
+#sskillheading{
+  text-align: center;
+  color: #444444;
+ 
+  
+}
+#softskill>div{
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #768da9;
+}
+#staticheading{
+text-align: center;
+color: #444444;
+}
+#statics{
+  width: 47%;
+  margin: auto;
+ 
+
+}
+#statics>img{
+  width: 100%;
+}
+
+@media all and (min-width:1195px) and (max-width:1330px){
+  #project{
+    width: 70%;
     margin: auto;
-   
-
+    margin-top: 50px;
   }
-  #statics>img{
-    width: 100%;
-  }
-
-  @media all and (min-width:1195px) and (max-width:1330px){
-    #project{
-      width: 70%;
-      margin: auto;
-      margin-top: 50px;
-    }
-    .prjimage>p+img{
-      width: 210px;
-      
-    }
-    #softskill{
-      width: 35%;
-    }
-    #statics{
-      width: 48%;
-    }
-    #githubcalender{
-      width: 75%;
+  .prjimage>p+img{
+    width: 210px;
     
-    }
-    #gitimg1{
-      height: 185px;
-    }
-    #gitimg2{
-      height: 185px;
-     
-    }
+  }
+  #softskill{
+    width: 35%;
+  }
+  #statics{
+    width: 48%;
+  }
+  #githubcalender{
+    width: 75%;
+  
+  }
+  #gitimg1{
+    height: 185px;
+  }
+  #gitimg2{
+    height: 185px;
    
+  }
+ 
 }
 
 @media all and (min-width:1046px) and (max-width:1194px){
-  #project{
-    width: 68%;
-    
-  }
-  .prjimage>p+img{
-    width: 210px;
-    
-  }
+#project{
+  width: 68%;
+  
+}
+.prjimage>p+img{
+  width: 210px;
+  
+}
 
-  #skill{
-    width: 46%;
-  }
-  #name{
-    width: 460px;
-  }
-  #contactlink>a+a+img{
-    width: 5%;
-  }
-  #softskill{
-    width: 40%;
-  }
-  #statics{
-    width: 48%;
-  }
+#skill{
+  width: 46%;
+}
+#name{
+  width: 460px;
+}
+#contactlink>a+a+img{
+  width: 5%;
+}
+#softskill{
+  width: 40%;
+}
+#statics{
+  width: 48%;
+}
 
-  #githubcalender{
-    width: 80%;
-  
-  }
-  #gitimg1{
-    height: 183px;
-  }
-  #gitimg2{
-    height: 183px;
-   
-  }
-  
-  
+#githubcalender{
+  width: 80%;
+
+}
+#gitimg1{
+  height: 183px;
+}
+#gitimg2{
+  height: 183px;
+ 
+}
+
+
 }
 
 @media all and (min-width:900px) and (max-width:1045px){
-  #project{
-    width: 80%;
-    
-  }
-  .prjimage>p+img{
-    width: 210px;
-    
-  }
+#project{
+  width: 80%;
+  
+}
+.prjimage>p+img{
+  width: 210px;
+  
+}
 
-  #skill{
-    width: 80%;
-  }
+#skill{
+  width: 80%;
+}
+
+
+#tool{
+  width: 80%;
+}
+#name{
+  width: 400px;
+}
+
+#contactlink>a+a+img{
+  width: 6%;
+}
  
-
-  #tool{
-    width: 80%;
-  }
-  #name{
-    width: 400px;
-  }
-
-  #contactlink>a+a+img{
-    width: 6%;
-  }
-   
-  #picture>img{
-    width: 230px;
-    border-radius: 100px;
-    
-  }
-  #linkedin{
-    width: 7%;
-    height: 7%; 
-  }
-  #git{
-    width: 6%;
-    height: 6%;
-    
-  }
-  #softskill{
-    width: 45%;
-  }
-
-  #statics{
-    width: 62%;
-  }
+#picture>img{
+  width: 230px;
+  border-radius: 100px;
   
-  #psc>a{
-    margin-right: 13px;
-    font-size: 14px;
-  }
-  #githubcalender{
-    width: 85%;
+}
+#linkedin{
+  width: 7%;
+  height: 7%; 
+}
+#git{
+  width: 6%;
+  height: 6%;
   
-  }
-  #gitimg{
-    width: 100%;
-  }
-  #gitimg1{
-    height: 165px;
-  }
-  #gitimg2{
-    height: 165px;
-   
-  }
+}
+#softskill{
+  width: 45%;
+}
+
+#statics{
+  width: 62%;
+}
+
+#psc>a{
+  margin-right: 13px;
+  font-size: 14px;
+}
+#githubcalender{
+  width: 85%;
+
+}
+#gitimg{
+  width: 100%;
+}
+#gitimg1{
+  height: 165px;
+}
+#gitimg2{
+  height: 165px;
+ 
+}
 }
 
 @media all and (min-width:774px) and (max-width:899px){
-  #project{
-    width: 80%;
-    
-  }
+#project{
+  width: 80%;
   
-  #projectgrid{
-    width: 80%;
-  }
-  .prjimage>p+img{
-    width: 180px;
-    
-  }
+}
 
-  #skill{
-    width: 80%;
-  }
-  #tskillgrid{
-    width: 80%;
-  }
-
-  #tool{
-    width: 80%;
-  }
-  #toolgrid{
-    width: 80%;
-  }
-
-  #name{
-    width: 320px;
-  }
-  #darkmode{
-    width: 4%;
-  }
-  #contactlink>a+a+img{
-    width: 6%;
-  }
-
-  #picture>img{
-    width: 230px;
-    
-  }
-
-  #linkedin{
-    width: 8.5%;
-    height: 8.5%; 
-  }
-  #git{
-    width: 7%;
-    height: 7%;
-    
-  }
-  #softskill{
-    width: 50%;
-  }
-
-  #statics{
-    width: 72%;
-  }
-  #psc>a{
-    margin-right: 14px;
-    font-size: 14px;
-  }
-  #javalogo{
-    padding-left: 10%;
-  }
-  #psc{
-    padding-right: 10%;
-  }
-  #githubcalender{
-    width: 90%;
+#projectgrid{
+  width: 80%;
+}
+.prjimage>p+img{
+  width: 180px;
   
-  }
-  #gitimg{
-    width: 100%;
-  }
-  #gitimg1{
-    height: 156px;
-  }
-  #gitimg2{
-    height: 156px;
-   
-  }
+}
+
+#skill{
+  width: 80%;
+}
+#tskillgrid{
+  width: 80%;
+}
+
+#tool{
+  width: 80%;
+}
+#toolgrid{
+  width: 80%;
+}
+
+#name{
+  width: 320px;
+}
+#darkmode{
+  width: 4%;
+}
+#contactlink>a+a+img{
+  width: 6%;
+}
+
+#picture>img{
+  width: 230px;
   
+}
+
+#linkedin{
+  width: 8.5%;
+  height: 8.5%; 
+}
+#git{
+  width: 7%;
+  height: 7%;
+  
+}
+#softskill{
+  width: 50%;
+}
+
+#statics{
+  width: 72%;
+}
+#psc>a{
+  margin-right: 14px;
+  font-size: 14px;
+}
+#javalogo{
+  padding-left: 10%;
+}
+#psc{
+  padding-right: 10%;
+}
+#githubcalender{
+  width: 90%;
+
+}
+#gitimg{
+  width: 100%;
+}
+#gitimg1{
+  height: 156px;
+}
+#gitimg2{
+  height: 156px;
+ 
+}
+
 }
 
 @media all and (min-width:650px) and (max-width:773px){
-  #project{
-    width: 80%;
-    
-  }
-  #projectgrid{
-    width: 80%;
-    
-  }
-  .prjimage>p+img{
-    width: 180px;
-    
-  }
-
-  #skill{
-    width: 80%;
-  }
-  #tskillgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-
-  #tool{
-    width: 80%;
-  }
-  #toolgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-  #name{
-    width: 230px;
-  }
-
-  #picture>img{
-    width: 220px;
-  }
-
-  #hi{
-    font-size: 1.4rem;
-  }
-
-  #pawan{
-    font-size: 1.4rem;
-  }
-
-  #developer{
-    font-size: 1rem;
-  }
-  #darkmode{
-    width: 4%;
-  }
-
-  #contactlink>a+a+img{
-    width: 7%;
-  }
-  #linkedin{
-    width: 9.5%;
-    height: 9.5%; 
-  }
-  #git{
-    width: 8%;
-    height: 8%;
-    
-  }
-  #softskill{
-    width: 55%;
-  }
-  #statics{
-    width: 72%;
-  }
-  #psc>a{
-    margin-right: 14px;
-    font-size: 13px;
-  }
-  #githubcalender{
-    width: 95%;
+#project{
+  width: 80%;
   
-  }
-  #gitimg{
-    width: 100%;
-  }
-  #gitimg1{
-    height: 138px;
-  }
-  #gitimg2{
-    height: 138px;
-   
-  }
+}
+#projectgrid{
+  width: 80%;
   
+}
+.prjimage>p+img{
+  width: 180px;
   
+}
+
+#skill{
+  width: 80%;
+}
+#tskillgrid{
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+#tool{
+  width: 80%;
+}
+#toolgrid{
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+#name{
+  width: 300px;
+}
+
+#picture>img{
+  width: 220px;
+}
+
+#hi{
+  font-size: 1.4rem;
+}
+
+#pawan{
+  font-size: 1.4rem;
+}
+
+#developer{
+  font-size: 1rem;
+}
+#darkmode{
+  width: 4%;
+}
+
+#contactlink>a+a+img{
+  width: 7%;
+}
+#linkedin{
+  width: 9.5%;
+  height: 9.5%; 
+}
+#git{
+  width: 8%;
+  height: 8%;
   
+}
+#softskill{
+  width: 55%;
+}
+#statics{
+  width: 72%;
+}
+#psc>a{
+  margin-right: 14px;
+  font-size: 13px;
+}
+#githubcalender{
+  width: 95%;
+
+}
+#gitimg{
+  width: 100%;
+}
+#gitimg1{
+  height: 138px;
+}
+#gitimg2{
+  height: 138px;
+ 
+}
+
+
 }
 
 /* @media all and (min-width:480px) and (max-width:649px){
-  #project{
-    width: 80%;
-    
-  }
-  #projectgrid{
-    width: 80%;
-    width: 80%;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(2,1fr);
-    
-  }
-  .prjimage>p+img{
-    width: 280px;
-    
-  }
-
-  #skill{
-    width: 80%;
-  }
-  #tskillgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-  }
-
-  #tool{
-    width: 80%;
-  }
-  #toolgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-
-  #darkmode{
-    width: 4%;
-  }
-  #name{
-    width: 200px;
-  }
-
-  #picture>img{
-    width: 160px;
-  }
-
-  #hi{
-    font-size: 1.4rem;
-  }
-
-  #pawan{
-    font-size: 1.4rem;
-  }
-
-  #developer{
-    font-size: 1rem;
-  }
-
-  #contactlink>a+a+img{
-    width: 9%;
-  }
-
-  #linkedin{
-    width: 10.5%;
-    height: 10.5%; 
-  }
-  #git{
-    width: 9%;
-    height: 9%;
-    
-  }
-  #softskill{
-    width: 55%;
-  }
-  #statics{
-    width: 83%;
-  }
+#project{
+  width: 80%;
   
+}
+#projectgrid{
+  width: 80%;
+  width: 80%;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr);
+  
+}
+.prjimage>p+img{
+  width: 280px;
+  
+}
+
+#skill{
+  width: 80%;
+}
+#tskillgrid{
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+}
+
+#tool{
+  width: 80%;
+}
+#toolgrid{
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+#darkmode{
+  width: 4%;
+}
+#name{
+  width: 200px;
+}
+
+#picture>img{
+  width: 160px;
+}
+
+#hi{
+  font-size: 1.4rem;
+}
+
+#pawan{
+  font-size: 1.4rem;
+}
+
+#developer{
+  font-size: 1rem;
+}
+
+#contactlink>a+a+img{
+  width: 9%;
+}
+
+#linkedin{
+  width: 10.5%;
+  height: 10.5%; 
+}
+#git{
+  width: 9%;
+  height: 9%;
+  
+}
+#softskill{
+  width: 55%;
+}
+#statics{
+  width: 83%;
+}
+
 } */
 
 @media all and (min-width:480px) and (max-width:649px){
-  #project{
-    width: 90%;
-    
-  }
-  #psc>a{
-    margin-right: 11px;
-    font-size: 12px;
-  }
-  #projectgrid{
-    width: 80%;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(2,1fr);
-    
-  }
+#project{
+  width: 90%;
   
-  #skill{
-    width: 90%;
-  }
-  #tskillgrid{
-    width: 80%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
-  }
-
-  #tool{
-    width: 90%;
-  }
-  #toolgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-
-  #darkmode{
-    width: 4%;
-  }
-  #name{
-    width: 240px;
-  }
-
-  #hi{
-    font-size: 1.4rem;
-  }
-
-  #pawan{
-    font-size: 1.4rem;
-  }
-
-  #developer{
-    font-size: 1rem;
-
-  }
-
-  #contactlink>a+a+img{
-    width: 9%;
-  }
+}
+#psc>a{
+  margin-right: 11px;
+  font-size: 12px;
+}
+#projectgrid{
+  width: 80%;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr);
   
-  #namesection{
-    width: 90%;
-  }
+}
 
-  #name{
-    width: 230px;
-  }
+#skill{
+  width: 90%;
+}
+#tskillgrid{
+  width: 80%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+}
 
-  #picture>img{
-    width: 220px;
-  }
+#tool{
+  width: 90%;
+}
+#toolgrid{
+  width: 80%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
 
-  #softskill{
-    width: 60%;
-  }
-  #softskill>div{
-   font-size: 14px;
-   
-  }
-  #statics{
-    width: 83%;
-  }
-  #javalogo{
-    padding-left: 5%;
-  }
-  #psc{
-    padding-right: 5%;
-  }
-  #githubcalender{
-    width: 100%;
-    
-  }
-  #gitimg{
-    width: 100%;
-  }
-  #gitimg1{
-    
-    height: 122px;
+#darkmode{
+  width: 4%;
+}
+#name{
+  width: 240px;
+}
 
-  }
-  #gitimg2{
-    height: 122px;
-   
-  }
+#hi{
+  font-size: 1.4rem;
+}
+
+#pawan{
+  font-size: 1.4rem;
+}
+
+#developer{
+  font-size: 1rem;
+
+}
+
+#contactlink>a+a+img{
+  width: 9%;
+}
+
+#namesection{
+  width: 90%;
+}
+
+#name{
+  width: 230px;
+}
+
+#picture>img{
+  width: 220px;
+}
+
+#softskill{
+  width: 60%;
+}
+#softskill>div{
+ font-size: 14px;
+ 
+}
+#statics{
+  width: 83%;
+}
+#javalogo{
+  padding-left: 5%;
+}
+#psc{
+  padding-right: 5%;
+}
+#githubcalender{
+  width: 100%;
+  
+}
+#gitimg{
+  width: 100%;
+}
+#gitimg1{
+  
+  height: 122px;
+
+}
+#gitimg2{
+  height: 122px;
+ 
+}
 }
 
 @media all and (min-width:100px) and (max-width:480px){
-  #project{
-    width: 90%;
-    
-  }
-  #projectgrid{
-    width: 80%;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(2,1fr);
-    
-  }
-  .prjimage>p+img{
-    width: 250px;
-  }
-  #skill{
-    width: 90%;
-  }
-  #tskillgrid{
-    width: 80%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
-  }
-
-  #tool{
-    width: 90%;
-  }
-  #toolgrid{
-    width: 80%;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-
-  #darkmode{
-    width: 3%;
-  }
-
-  #javalogo{
-    margin-top: -19px;
-    margin-left: -300px;
-  }
-  #name{
-    width: 210px;
-  }
-
-  #hi{
-    font-size: 1.0rem;
-  }
-
-  #pawan{
-    font-size: 1.0rem;
-  }
-
-  #developer{
-    font-size: 0.8rem;
-
-  }
-  #psc>a{
-    margin-right: 22px;
-    font-size: 14px;
-  }
+#project{
+  width: 90%;
   
-
-  #contactlink>a+a+img{
-    width: 10%;
-  }
-
+}
+#projectgrid{
+  width: 80%;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(2,1fr);
   
-  #namesection{
-    width: 90%;
-  }
+}
+.prjimage>p+img{
+  width: 250px;
+}
+#skill{
+  width: 90%;
+}
+#tskillgrid{
+  width: 80%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+}
 
-  #name{
-    width: 180px;
-  }
+#tool{
+  width: 90%;
+}
+#toolgrid{
+  width: 80%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
 
-  #picture>img{
-    width: 180px;
-  }
+#darkmode{
+  width: 3%;
+}
 
-  #linkedin{
-    width: 10.5%;
-    height: 10.5%; 
-  }
-  #git{
-    width: 9%;
-    height: 9%;
-    
-  }
-  #softskill{
-    width: 70%;
-  }
-  #softskill>div{
-   font-size: 12px;
-   padding: 7px;
-  }
+#javalogo{
+  margin-top: -19px;
+  margin-left: -300px;
+}
 
-  #statics{
-    width: 85%;
-  }
-  #myheader{
-    padding-left: 10%;
-  }
-  #githubcalender{
-    width: 100%;
-    
-  }
-  #gitimg{
-    width: 100%;
-  }
-  #gitimg1{
-    height: 93px;
-  }
-  #gitimg2{
-    height: 93px;
-   
-  }
+#psc>a{
+  margin-right: 22px;
+  font-size: 14px;
+}
+
+
+#contactlink>a+a+img{
+  width: 10%;
+}
+
+
+#namesection{
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#name{
+  width: 90%;
+  text-align: justify;
+}
+#hi{
+  font-size: 1.0rem;
+ 
+}
+#name>h1{
+  text-align: center;
+}
+#developer{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: -15px;
+}
+#pawan{
+  font-size: 1.0rem;
+  
+}
+
+
+#picture>img{
+  width: 300px;
+}
+
+#linkedin{
+  width: 6.5%;
+  height: 6.5%; 
+}
+#git{
+  width: 5%;
+  height: 5%;
+  
+}
+#softskill{
+  width: 70%;
+}
+#softskill>div{
+ font-size: 12px;
+ padding: 7px;
+}
+
+#statics{
+  width: 85%;
+}
+#myheader{
+  padding-left: 10%;
+}
+#githubcalender{
+  width: 100%;
+  
+}
+#gitimg{
+  width: 100%;
+}
+#gitimg1{
+  height: 93px;
+}
+#gitimg2{
+  height: 93px;
+ 
+}
 }
 
 
 @media all and (min-width:450px) and (max-width:464px){
-  #psc>a{
-    margin-right: 20px;
-    font-size: 14px;
-  }
+#psc>a{
+  margin-right: 20px;
+  font-size: 14px;
+}
 }
 @media all and (min-width:439px) and (max-width:451px){
-  #psc>a{
-    margin-right: 19px;
-    font-size: 14px;
-  }
+#psc>a{
+  margin-right: 19px;
+  font-size: 14px;
+}
 }
 
 @media all and (min-width:415px) and (max-width:438px){
-  #psc>a{
-    margin-right: 19px;
-    font-size: 13px;
-  }
+#psc>a{
+  margin-right: 19px;
+  font-size: 13px;
+}
 }
 
 @media all and (min-width:100px) and (max-width:414px){
-  #psc>a{
-    margin-right: 17px;
-    font-size: 13px;
-  }
+#psc>a{
+  margin-right: 17px;
+  font-size: 13px;
+}
 }
 .sourcecode{
- width: 10%;
- cursor: pointer;
+width: 10%;
+cursor: pointer;
 
 }
 .gitlink{
-  width: 10%;
-  cursor: pointer;
+width: 10%;
+cursor: pointer;
 }
 
 .gitAndnetlify{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+display: flex;
+align-items: center;
+justify-content: space-around;
 
 }
 
