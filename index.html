@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pawan<3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="myheader">
+    <div id="nav-menu">
         <div id="javalogo">
             <img src="https://classes.engineering.wustl.edu/cse231/core/images/2/26/Java.png" alt="">
         </div>
         <div id="psc">
-            <a href="#namesection">Home</a>
-            <a href="#namesection">About Me</a>
+            <a href="#namesection" class="nav-link home">Home</a>
+            <a href="#namesection" class="nav-link about">About Me</a>
            
-           <a href="#skill" id="Skills">Skills</a> 
-           <a href="#project" id="projects"> Project</a>
-           <a href="#contact" id="">Contact</a> 
-           <a href="https://drive.google.com/file/d/1mVzoLgsiblL2Xnm0fbMZ7NKxmGxnHX_Q/view?usp=share_link" download="Pawan_kumar" id="resume">Resume</a>
+           <a href="#skill" id="Skills" class="nav-link skills"
+           >Skills</a> 
+           <a href="#project" id="projects"  class="nav-link projects"> Project</a>
+           <a href="#contact" id="" class="nav-link contact">Contact</a> 
+           <a href="https://drive.google.com/file/d/1VM6fz8G4Qc5BGBm6YUsF7zalgvfaw-rg/view" download="Pawan_kumar" id="resume" target="_blank" class="nav-link resume">Resume</a>
             <img src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png" id="darkmode">
             
         </div>
@@ -27,25 +28,25 @@
 
     <div id="namesection">
         <div id="name">
-            <h1><span id="hi">Hi, I am </span><span id="pawan">Pawan Kumar</span> </h1>
+            <h1><span id="user-detail-name">Hi, I'm </span><span id="pawan">Pawan Kumar</span> </h1>
 
             <h2 id="developer">Java Backend Developer</h2>
-            <p id="summary">
+            <span id="user-detail-intro">
                 Aspiring Java Backend developer love to work with backend technologies love to create spring boot applications, restful APIs, backend applications..
-            </p>
+            </span>
             <div id="linksection">
                 
                     
-                <a href="https://drive.google.com/uc?export=download&id=1q-OXB0o1eUY9oYk5yeAfnyNVXXX2b5OV" download="Pawan_kumar" id="resume"> Resume🔗</a>
+                <a href="https://drive.google.com/uc?export=download&id=1q-OXB0o1eUY9oYk5yeAfnyNVXXX2b5OV" download="Pawan_kumar" id="resume"> Resume<span id="dicon">⇩</span> </a></a>
                 
                 
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" id="git">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" id="contact-github">
 
                 <img src="linkedin.png" alt="" id="linkedin"></a>
             </div>
         </div>
         <div id="picture">
-            <img src="Pawan.png" alt="">
+            <img src="Pawan.png" alt="" class="home-img">
         </div>
 
     </div>
@@ -126,45 +127,47 @@
         <div id="projectgrid">
             
                 <div class="prjimage">
-                    <p>Recruitee clone</p>
-                    <img src="recrutiee_clone.png" alt="">
-                    <p>We cloned Recruitee website during our project with all possible Functionalities. Recruitee is a platform to bring the hiring team. <br><span class="tech_stack"> Tech stacks :- HTML, CSS  JAVASCRIPT, lOCALSTORAGE </span></p>
+                    <p  class="project-title">Ecommerce </p>
+                    <img src="Ecommerce_er.png" alt="">
+                    <p class="project-description">Rest Api for Ecommerce Application. It has all basics features that we often seen in any Ecommerce Application such as User Registration, Login, Cart, Order, Product Sorting-filterin, User Rating & Comment<br><span class="project-tech-stack"> Tech stacks :- Java, SpringBoot  MySql, Hibernate </span></p>
                     <div class="gitAndnetlify">
-                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="gitlink" id="d1"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="sourcecode" id="s1">
+                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="project-github-link" id="d1"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="project-deployed-link" id="s1">
                     </div>
                 </div>
                 
+               
+                
+
                 <div class="prjimage">
-                    <p>YouTube clone</p>
+                    <p class="project-title">Email  Application</p>
+                    <img src="Email_er.png" alt="">
+                    <p class="project-description">Rest Api for Email Application. It has all basic features that we often see in Any Email Application such as User can send message  to another user recived message from them, User can star & delete the messages.<br><span class="project-tech-stack">  Tech stacks :- Java, SpringBoot  MySql, Hibernate </span></p>
+                    <div class="gitAndnetlify">
+                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="project-github-link"  id="d4"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="project-deployed-link" id="s4">
+                    </div>
+                    
+                </div>
+
+                <div class="prjimage">
+                    <p class="project-title">YouTube clone</p>
                     <img src="yt_clone.png" alt="">
-                    <p>I cloned YouTube application with some functionalities like searching  functionality, watching video functionality and provided it to good UI. <br><span class="tech_stack"> Tech stacks :-  HTML, CSS  JAVASCRIPT, APIs </span></p>
+                    <p class="project-description">I cloned YouTube application with some functionalities like searching  functionality, watching video functionality and provided it to good UI. <br><span class="project-tech-stack"> Tech stacks :-  HTML, CSS  JAVASCRIPT, APIs </span></p>
                     <div class="gitAndnetlify">
-                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="gitlink" id="d2"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="sourcecode" id="s2">
+                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="project-github-link"  id="d2"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="project-deployed-link" id="s2">
                     </div>
                     
                 </div>
 
-
                 <div class="prjimage">
-                    <p>Wather Application</p>
+                    <p class="project-title">Wather Application</p>
                     <img src="weather.png" alt="">
-                    <p>I have create a weather application in this application we can see the weather information of any city we can see the city in map ass well . <br><span class="tech_stack"> Tech stacks :-  HTML, CSS  JAVASCRIPT, APIs </span></p>
+                    <p class="project-description">I have create a weather application in this application we can see the weather information of any city we can see the city in map ass well . <br><span class="project-tech-stack"> Tech stacks :-  HTML, CSS  JAVASCRIPT, APIs </span></p>
                     <div class="gitAndnetlify">
-                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="gitlink" id="d3"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="sourcecode" id="s3">
+                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="project-github-link"  id="d3"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="project-deployed-link" id="s3">
                     </div>
                     
                 </div>
 
-
-                <div class="prjimage">
-                    <p>News Application</p>
-                    <img src="news.png" alt="">
-                    <p>I have created the news applicaiton in this applicaiton we can see the various news of various countries, and search some news as well. <br><span class="tech_stack">  Tech stacks :-  HTML, CSS  JAVASCRIPT, APIs </span></p>
-                    <div class="gitAndnetlify">
-                        <img src="https://cdn0.iconfinder.com/data/icons/web-design-and-development-4/512/180-512.png" alt="" class="gitlink" id="d4"><img src="https://cdn-icons-png.flaticon.com/512/6614/6614689.png" alt="" class="sourcecode" id="s4">
-                    </div>
-                    
-                </div>
 
                 
 
@@ -207,9 +210,9 @@
     <div id="contact">
         <h1 id="c_heading">Contact</h1>
         <div id="contactlink">
-            <a href="tel:+918085667061"><p>📞</p> </a>
-            <a href = "mailto: kumarpawanm8085@gmail.com"><p>✉</p></a>
-            <img src="linkedin.png" alt="">
+            <a href="tel:+918085667061"><p id="contact-phone">📞</p> </a>
+            <a href = "mailto: kumarpawanm8085@gmail.com"><p  id="contact-email">✉</p></a>
+            <img src="linkedin.png" alt=""  id="contact-linkedin">
 
           
         </div>

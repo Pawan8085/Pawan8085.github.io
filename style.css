@@ -6,13 +6,14 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.tech_stack{
+.project-tech-stack{
  font-weight: 610;
  color: rgb(87, 125, 190);
  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  font-size: 15px;
+ margin-top: 5px;
 }
-#myheader{
+#nav-menu{
   
     width: 100%;
   
@@ -24,7 +25,7 @@ body{
    position: fixed;
   top: 0px;
    background-color: white;
-  
+  z-index: 1;
    
   
 }
@@ -90,14 +91,17 @@ body{
     align-items: center;
     justify-content: space-between;
    margin-top: 100px;
+   
 }
 
 #name{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     width: 590px;
     
+   
+    
 }
-#hi{
+#user-detail-name{
     color: #444444;
     font-size: 2rem;
 }
@@ -110,11 +114,11 @@ body{
 }
 
 #psc>a:hover{
-    display: inline-block;
-    position: relative;
     color: #0087ca;
+    text-decoration: underline;
+    
 }
-#psc>a:after {
+/* #psc>a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -125,18 +129,17 @@ body{
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+  }*/
   
-  #psc>a:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+  
 
-  #summary{
+  #user-detail-intro{
     color: #768da9;
     text-align: justify;
+    word-break: break-all;
   }
   #linksection{
+    margin-top: 3px;
     display: flex;
     align-items: center;
     position: relative;
@@ -144,12 +147,14 @@ body{
   #resume{
    cursor: pointer;
    color: #2978b5;
-   text-decoration: none;
+   text-decoration: underline;
   }
-
-  #resume:hover{
-    text-decoration: underline;
+  #dicon{
+    margin-left: 3px;
+    font-weight: bolder;
+   font-size: 17px;
   }
+  
   #linkedin{
     margin-left: 10px;
     width: 5%;
@@ -157,7 +162,8 @@ body{
     cursor: pointer;
     
   }
-  #git{
+  
+  #contact-github{
     margin-left: 10px;
     width: 4%;
     height: 4%;
@@ -248,7 +254,7 @@ body{
   }
 
   #project{
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-top: 50px;
   }
@@ -258,10 +264,12 @@ body{
   }
   #projectgrid{
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,auto);
     gap: 40px;
-    width: 70%;
+    width: 100%;
     padding: 30px;
     margin: auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -280,11 +288,13 @@ body{
     padding-right: 10px;
   }
   .prjimage>p+img{
-    width: 250px;
+    width: 100%;
     border-radius: 5px;
   }
   .prjimage>p+img+p{
     color: #2978b5;
+    text-align: justify;
+   word-break: break-all;
   }
   .prjimage>:nth-child(1){
     color: #2978b5;
@@ -368,12 +378,12 @@ body{
 
   @media all and (min-width:1195px) and (max-width:1330px){
     #project{
-      width: 70%;
+      width: 55%;
       margin: auto;
       margin-top: 50px;
     }
     .prjimage>p+img{
-      width: 210px;
+      width: 260px;
       
     }
     #softskill{
@@ -398,13 +408,10 @@ body{
 
 @media all and (min-width:1046px) and (max-width:1194px){
   #project{
-    width: 68%;
+    width: 57%;
     
   }
-  .prjimage>p+img{
-    width: 210px;
-    
-  }
+  
 
   #skill{
     width: 46%;
@@ -433,19 +440,23 @@ body{
     height: 183px;
    
   }
-  
+  #contact-github{
+    width: 6%;
+    height: 6%;
+  }
+  #linkedin{
+    width: 7%;
+    height: 7%;
+  }
   
 }
 
 @media all and (min-width:900px) and (max-width:1045px){
   #project{
-    width: 80%;
+    width: 65%;
     
   }
-  .prjimage>p+img{
-    width: 210px;
-    
-  }
+
 
   #skill{
     width: 80%;
@@ -503,19 +514,19 @@ body{
     height: 165px;
    
   }
+  #contact-github{
+    width: 6%;
+    height: 6%;
+  }
+  #linkedin{
+    width: 7%;
+    height: 7%;
+  }
 }
 
 @media all and (min-width:774px) and (max-width:899px){
   #project{
-    width: 80%;
-    
-  }
-  
-  #projectgrid{
-    width: 80%;
-  }
-  .prjimage>p+img{
-    width: 180px;
+    width: 69%;
     
   }
 
@@ -532,7 +543,9 @@ body{
   #toolgrid{
     width: 80%;
   }
-
+  #namesection{
+    width: 80%;
+  }
   #name{
     width: 320px;
   }
@@ -548,14 +561,13 @@ body{
     
   }
 
-  #linkedin{
-    width: 8.5%;
-    height: 8.5%; 
-  }
-  #git{
+  #contact-github{
     width: 7%;
     height: 7%;
-    
+  }
+  #linkedin{
+    width: 8%;
+    height: 8%;
   }
   #softskill{
     width: 50%;
@@ -596,14 +608,6 @@ body{
     width: 80%;
     
   }
-  #projectgrid{
-    width: 80%;
-    
-  }
-  .prjimage>p+img{
-    width: 180px;
-    
-  }
 
   #skill{
     width: 80%;
@@ -623,15 +627,18 @@ body{
     grid-template-rows: repeat(2,1fr);
   }
   #name{
-    width: 230px;
+    width: 300px;
   }
-
+  #namesection{
+    width: 80%;
+  }
   #picture>img{
     width: 220px;
   }
 
-  #hi{
+  #user-detail-name{
     font-size: 1.4rem;
+    word-break: ;
   }
 
   #pawan{
@@ -648,14 +655,13 @@ body{
   #contactlink>a+a+img{
     width: 7%;
   }
-  #linkedin{
-    width: 9.5%;
-    height: 9.5%; 
+  #contact-github{
+    width: 7%;
+    height: 7%;
   }
-  #git{
-    width: 8%;
-    height: 8%;
-    
+  #linkedin{
+    width: 9%;
+    height: 9%;
   }
   #softskill{
     width: 55%;
@@ -731,7 +737,7 @@ body{
     width: 160px;
   }
 
-  #hi{
+  #user-detail-name{
     font-size: 1.4rem;
   }
 
@@ -806,7 +812,7 @@ body{
     width: 240px;
   }
 
-  #hi{
+  #user-detail-name{
     font-size: 1.4rem;
   }
 
@@ -867,6 +873,14 @@ body{
     height: 122px;
    
   }
+  #contact-github{
+    width: 9%;
+    height: 9%;
+  }
+  #linkedin{
+    width: 11%;
+    height: 11%;
+  }
 }
 
 @media all and (min-width:100px) and (max-width:480px){
@@ -880,9 +894,7 @@ body{
     grid-template-rows: repeat(2,1fr);
     
   }
-  .prjimage>p+img{
-    width: 250px;
-  }
+
   #skill{
     width: 90%;
   }
@@ -909,22 +921,7 @@ body{
     margin-top: -19px;
     margin-left: -300px;
   }
-  #name{
-    width: 210px;
-  }
-
-  #hi{
-    font-size: 1.0rem;
-  }
-
-  #pawan{
-    font-size: 1.0rem;
-  }
-
-  #developer{
-    font-size: 0.8rem;
-
-  }
+  
   #psc>a{
     margin-right: 22px;
     font-size: 14px;
@@ -938,24 +935,37 @@ body{
   
   #namesection{
     width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   #name{
-    width: 180px;
+    width: 90%;
+    text-align: justify;
   }
+  #user-detail-name{
+    font-size: 20px;
+   
+  }
+  #name>h1{
+    text-align: center;
+  }
+  #developer{
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: -15px;
+  }
+  #pawan{
+    font-size: 20px;
+    
+  }
+  #developer{
+    font-size: 15px;
+  }
+  
 
   #picture>img{
-    width: 180px;
-  }
-
-  #linkedin{
-    width: 10.5%;
-    height: 10.5%; 
-  }
-  #git{
-    width: 9%;
-    height: 9%;
-    
+    width: 300px;
   }
   #softskill{
     width: 70%;
@@ -968,7 +978,7 @@ body{
   #statics{
     width: 85%;
   }
-  #myheader{
+  #nav-menu{
     padding-left: 10%;
   }
   #githubcalender{
@@ -984,6 +994,24 @@ body{
   #gitimg2{
     height: 93px;
    
+  }
+  #linksection{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 3px;
+  }
+  #contact-github{
+    width: 15%;
+    height: 15%;
+    margin-left: 5px;
+  }
+  #linkedin{
+    width: 17%;
+    height: 17%;
+    margin-left: 5px;
   }
 }
 
@@ -1014,12 +1042,12 @@ body{
     font-size: 13px;
   }
 }
-.sourcecode{
+.project-deployed-link{
  width: 10%;
  cursor: pointer;
 
 }
-.gitlink{
+.project-github-link{
   width: 10%;
   cursor: pointer;
 }

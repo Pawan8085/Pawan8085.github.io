@@ -1,0 +1,166 @@
+/* Navbar styling */
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#nav-menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-menu li {
+  margin: 0 1rem;
+}
+
+#nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#nav-menu a:hover {
+  color: #f7df1e;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  #nav-menu {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  
+  #nav-menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #nav-menu li {
+    margin: 0.5rem 0;
+  }
+  
+  #nav-menu a {
+    font-size: 1rem;
+  }
+}
+/* Styles for the home section */
+#home {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .home-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #user-detail-name {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #user-detail-intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #resume-button-2 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #resume-button-2:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Styles for the about section */
+  #about {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #fff;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .about #resume-button-2 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about #resume-button-2:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 768px) {
+    #home {
+      padding: 50px 0;
+    }
+    
+    .home-img {
+      width: 150px;
+      height: 150px;
+    }
+    
+    #user-detail-name {
+      font-size: 24px;
+    }
+    
+    #user-detail-intro {
+      font-size: 16px;
+    }
+    
+    #resume-button-2 {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+    
+    #about {
+      padding: 50px 0;
+    }
+    
+    .about h2 {
+      font-size: 24px;
+    }
+    
+    .about p {
+      font-size: 16px;
+    }
+    
+    .about #resume-button-2 {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
