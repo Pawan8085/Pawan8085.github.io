@@ -33,10 +33,7 @@ function func(){
 
 }
 
-document.getElementById("resume").addEventListener('click',resume);
-function resume() {
-    window.location.href="https://drive.google.com/file/d/1q-OXB0o1eUY9oYk5yeAfnyNVXXX2b5OV/view";
-}
+
 document.getElementById("contact-github").addEventListener('click',git);
 function git() {
     // window.location.href="https://github.com/Pawan8085";

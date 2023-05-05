@@ -176,6 +176,27 @@ body{
     width: 250px;
     
   }
+  #about{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+  #about>h2{
+    text-align: center;
+    font-family: Candara;
+    
+  }
+  #about_me{
+    text-align: center;
+    font-size: 17px;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    word-break: break-all;
+    
+  }
   #skill{
     width: 60%;
     margin: auto;
@@ -546,6 +567,9 @@ body{
   #namesection{
     width: 80%;
   }
+  #about{
+    width: 80%;
+  }
   #name{
     width: 320px;
   }
@@ -632,13 +656,11 @@ body{
   #namesection{
     width: 80%;
   }
+  #about{
+    width: 80%;
+  }
   #picture>img{
     width: 220px;
-  }
-
-  #user-detail-name{
-    font-size: 1.4rem;
-    word-break: ;
   }
 
   #pawan{
@@ -832,6 +854,9 @@ body{
   #namesection{
     width: 90%;
   }
+  #about{
+    width: 90%;
+  }
 
   #name{
     width: 230px;
@@ -937,6 +962,9 @@ body{
     width: 90%;
     display: flex;
     flex-direction: column-reverse;
+  }
+  #about{
+    width: 90%;
   }
 
   #name{
