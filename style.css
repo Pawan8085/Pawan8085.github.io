@@ -109,8 +109,9 @@ body{
     color: #2978b5;
     font-size: 2rem;
 }
-#developer{
+#user-detail-intro{
     color: #444444;
+    margin-top: -15px;
 }
 
 #psc>a:hover{
@@ -133,18 +134,15 @@ body{
   
   
 
-  #user-detail-intro{
-    color: #768da9;
-    text-align: justify;
-    word-break: break-all;
-  }
+   
   #linksection{
     margin-top: 3px;
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: -15px;
   }
-  #resume{
+  #resume-link-1{
    cursor: pointer;
    color: #2978b5;
    text-decoration: underline;
@@ -195,9 +193,16 @@ body{
     padding-bottom: 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     word-break: break-all;
+   
+   
     
   }
-  #skill{
+  #resume-button-2{
+    border: 1px solid blue;
+    border-radius: 3px;
+    
+  }
+  #skills{
     width: 60%;
     margin: auto;
     /* border: 1px solid gray; */
@@ -223,7 +228,7 @@ body{
     
     
   }
-  .tsicons{
+  .skills-card{
     /* border: 1px solid gray; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
@@ -234,12 +239,12 @@ body{
     padding: 5px;
     
   }
-  .tsicons>img+p{
+  .skills-card>img+p{
     text-align: center;
     color: #2978b5;
     
   }
-  .tsicons>img{
+  .skills-card>img{
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -264,7 +269,7 @@ body{
     margin: auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  .tsicons{
+  .skills-card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     display: flex;
@@ -297,7 +302,7 @@ body{
     
     
   }
-  .prjimage{
+  .project-card{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     display: flex;
@@ -308,16 +313,16 @@ body{
     padding-left: 10px;
     padding-right: 10px;
   }
-  .prjimage>p+img{
+  .project-card>p+img{
     width: 100%;
     border-radius: 5px;
   }
-  .prjimage>p+img+p{
+  .project-card>p+img+p{
     color: #2978b5;
     text-align: justify;
    word-break: break-all;
   }
-  .prjimage>:nth-child(1){
+  .project-card>:nth-child(1){
     color: #2978b5;
     font-weight: 600;
   }
@@ -386,6 +391,7 @@ body{
  #staticheading{
   text-align: center;
   color: #444444;
+  margin-top: 50px;
  }
   #statics{
     width: 47%;
@@ -396,14 +402,14 @@ body{
   #statics>img{
     width: 100%;
   }
-
+  
   @media all and (min-width:1195px) and (max-width:1330px){
     #project{
       width: 55%;
       margin: auto;
       margin-top: 50px;
     }
-    .prjimage>p+img{
+    .project-card>p+img{
       width: 260px;
       
     }
@@ -434,7 +440,7 @@ body{
   }
   
 
-  #skill{
+  #skills{
     width: 46%;
   }
   #name{
@@ -479,7 +485,7 @@ body{
   }
 
 
-  #skill{
+  #skills{
     width: 80%;
   }
  
@@ -488,7 +494,10 @@ body{
     width: 80%;
   }
   #name{
-    width: 400px;
+    width: 450px;
+  }
+  #user-detail-intro{
+    font-size: 20px;
   }
 
   #contactlink>a+a+img{
@@ -551,7 +560,7 @@ body{
     
   }
 
-  #skill{
+  #skills{
     width: 80%;
   }
   #tskillgrid{
@@ -633,7 +642,7 @@ body{
     
   }
 
-  #skill{
+  #skills{
     width: 80%;
   }
   #tskillgrid{
@@ -667,7 +676,7 @@ body{
     font-size: 1.4rem;
   }
 
-  #developer{
+  #user-detail-intro{
     font-size: 1rem;
   }
   #darkmode{
@@ -713,85 +722,7 @@ body{
   
 }
 
-/* @media all and (min-width:480px) and (max-width:649px){
-  #project{
-    width: 80%;
-    
-  }
-  #projectgrid{
-    width: 80%;
-    width: 80%;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(2,1fr);
-    
-  }
-  .prjimage>p+img{
-    width: 280px;
-    
-  }
 
-  #skill{
-    width: 80%;
-  }
-  #tskillgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-  }
-
-  #tool{
-    width: 80%;
-  }
-  #toolgrid{
-    width: 80%;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-  }
-
-  #darkmode{
-    width: 4%;
-  }
-  #name{
-    width: 200px;
-  }
-
-  #picture>img{
-    width: 160px;
-  }
-
-  #user-detail-name{
-    font-size: 1.4rem;
-  }
-
-  #pawan{
-    font-size: 1.4rem;
-  }
-
-  #developer{
-    font-size: 1rem;
-  }
-
-  #contactlink>a+a+img{
-    width: 9%;
-  }
-
-  #linkedin{
-    width: 10.5%;
-    height: 10.5%; 
-  }
-  #git{
-    width: 9%;
-    height: 9%;
-    
-  }
-  #softskill{
-    width: 55%;
-  }
-  #statics{
-    width: 83%;
-  }
-  
-} */
 
 @media all and (min-width:480px) and (max-width:649px){
   #project{
@@ -800,7 +731,7 @@ body{
   }
   #psc>a{
     margin-right: 11px;
-    font-size: 12px;
+    font-size: 11px;
   }
   #projectgrid{
     width: 80%;
@@ -809,7 +740,7 @@ body{
     
   }
   
-  #skill{
+  #skills{
     width: 90%;
   }
   #tskillgrid{
@@ -842,7 +773,7 @@ body{
     font-size: 1.4rem;
   }
 
-  #developer{
+  #user-detail-intro{
     font-size: 1rem;
 
   }
@@ -920,7 +851,7 @@ body{
     
   }
 
-  #skill{
+  #skills{
     width: 90%;
   }
   #tskillgrid{
@@ -977,8 +908,9 @@ body{
   }
   #name>h1{
     text-align: center;
+
   }
-  #developer{
+  #user-detail-intro{
     font-size: 0.8rem;
     text-align: center;
     margin-top: -15px;
@@ -987,7 +919,7 @@ body{
     font-size: 20px;
     
   }
-  #developer{
+  #user-detail-intro{
     font-size: 15px;
   }
   

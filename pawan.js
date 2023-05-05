@@ -7,11 +7,11 @@ function func(){
     if(bool){
         document.body.style.backgroundColor = "white";
         document.getElementById('tskill').style.color="#444444";
-        document.getElementById('ttool').style.color="#444444";
+        document.querySelector("#about>h2").style.color="black";
         document.getElementById('prjtitle').style.color="#444444";
         document.getElementById("user-detail-name").style.color="#444444";
-        document.getElementById("developer").style.color="#444444";
-        document.getElementById("sskillheading").style.color="#444444";
+        document.getElementById("user-detail-intro").style.color="#444444";
+        document.getElementById("about_me").style.color="black";
         document.getElementById("staticheading").style.color="#444444";
         document.getElementById('nav-menu').style.backgroundColor="#ffffff";
         bool=false;
@@ -20,14 +20,16 @@ function func(){
     else{
         document.body.style.backgroundColor = " #23283e";
         document.getElementById("user-detail-name").style.color="#cdcdff";
-        document.getElementById("developer").style.color="#cdcdff";
+        document.getElementById("user-detail-intro").style.color="#cdcdff";
         document.getElementById('tskill').style.color="#cdcdff";
-        document.getElementById('ttool').style.color="#cdcdff";
+        document.querySelector("#about>h2").style.color="#cdcdff";
         document.getElementById('prjtitle').style.color="#cdcdff";
-        document.getElementById('sskillheading').style.color="#cdcdff";
         document.getElementById('staticheading').style.color="#cdcdff";
         document.getElementById('nav-menu').style.backgroundColor="#23283e";
+        document.getElementById("about_me").style.color="#0087ca";
         bool=true;
+
+        
        
     }
 
