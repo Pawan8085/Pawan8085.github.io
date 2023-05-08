@@ -83,7 +83,7 @@ body{
    
 }
 
-#namesection{
+#home{
     width: 70%;
     margin: auto;
     margin-top: 50px;
@@ -161,7 +161,7 @@ body{
     
   }
   
-  #contact-github{
+  #github{
     margin-left: 10px;
     width: 4%;
     height: 4%;
@@ -344,17 +344,17 @@ body{
     width: 48%;
     margin: auto;
   }
-  #contactlink>a>p{
-    font-weight: bold;
-    font-size: 18px;
-  }
-  #contactlink>a+a>p{
-    width: 18%;
-  }
-  #contactlink>a+a+img{
+  #contact-github{
     width: 4%;
-    cursor: pointer;
-    
+  }
+  #contact-phone{
+    font-size: 22px;
+  }
+  #contact-email{
+    font-size: 22px;
+  }
+  #contact-linkedin{
+    width: 4.5%;
   }
   #linkedincontact{
     width: 5%;
@@ -446,9 +446,7 @@ body{
   #name{
     width: 460px;
   }
-  #contactlink>a+a+img{
-    width: 5%;
-  }
+  
   #softskill{
     width: 40%;
   }
@@ -467,7 +465,7 @@ body{
     height: 183px;
    
   }
-  #contact-github{
+  #github{
     width: 6%;
     height: 6%;
   }
@@ -500,8 +498,11 @@ body{
     font-size: 20px;
   }
 
-  #contactlink>a+a+img{
-    width: 6%;
+  #contact-github{
+    width: 5%;
+  }
+  #contact-linkedin{
+    width: 5.5%;
   }
    
   #picture>img{
@@ -544,7 +545,7 @@ body{
     height: 165px;
    
   }
-  #contact-github{
+  #github{
     width: 6%;
     height: 6%;
   }
@@ -573,7 +574,7 @@ body{
   #toolgrid{
     width: 80%;
   }
-  #namesection{
+  #home{
     width: 80%;
   }
   #about{
@@ -585,8 +586,11 @@ body{
   #darkmode{
     width: 4%;
   }
-  #contactlink>a+a+img{
+  #contact-github{
     width: 6%;
+  }
+  #contact-linkedin{
+    width: 6.5%;
   }
 
   #picture>img{
@@ -594,7 +598,7 @@ body{
     
   }
 
-  #contact-github{
+  #github{
     width: 7%;
     height: 7%;
   }
@@ -662,7 +666,7 @@ body{
   #name{
     width: 300px;
   }
-  #namesection{
+  #home{
     width: 80%;
   }
   #about{
@@ -682,11 +686,19 @@ body{
   #darkmode{
     width: 4%;
   }
-
-  #contactlink>a+a+img{
-    width: 7%;
-  }
   #contact-github{
+    width: 6%;
+  }
+  #contact-linkedin{
+    width: 6.5%;
+  }
+  #contact-phone{
+    font-size: 20px;
+  }
+  #contact-email{
+    font-size: 20px;
+  }
+  #github{
     width: 7%;
     height: 7%;
   }
@@ -777,12 +789,20 @@ body{
     font-size: 1rem;
 
   }
-
-  #contactlink>a+a+img{
-    width: 9%;
+  #contact-github{
+    width: 7%;
+  }
+  #contact-linkedin{
+    width: 7.5%;
+  }
+  #contact-phone{
+    font-size: 20px;
+  }
+  #contact-email{
+    font-size: 20px;
   }
   
-  #namesection{
+  #home{
     width: 90%;
   }
   #about{
@@ -829,7 +849,7 @@ body{
     height: 122px;
    
   }
-  #contact-github{
+  #github{
     width: 9%;
     height: 9%;
   }
@@ -883,13 +903,24 @@ body{
     font-size: 14px;
   }
   
-
-  #contactlink>a+a+img{
-    width: 10%;
+  #contactlink{
+    width: 90%;
+  }
+  #contact-github{
+    width: 6%;
+  }
+  #contact-linkedin{
+    width: 6.5%;
+  }
+  #contact-phone{
+    font-size: 20px;
+  }
+  #contact-email{
+    font-size: 20px;
   }
 
   
-  #namesection{
+  #home{
     width: 90%;
     display: flex;
     flex-direction: column-reverse;
@@ -963,7 +994,7 @@ body{
     margin: auto;
     margin-top: 3px;
   }
-  #contact-github{
+  #github{
     width: 15%;
     height: 15%;
     margin-left: 5px;

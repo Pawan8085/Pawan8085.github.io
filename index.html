@@ -14,7 +14,7 @@
             <img src="https://classes.engineering.wustl.edu/cse231/core/images/2/26/Java.png" alt="">
         </div>
         <div id="psc">
-            <a href="index.html" class="nav-link home">Home</a>
+            <a href="#home" class="nav-link home">Home</a>
             <a href="#about" class="nav-link about">About Me</a>
            
            <a href="#skill" id="Skills" class="nav-link skills"
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <div id="namesection">
+    <div id="home">
         <div id="name">
             <h1><span id="user-detail-name">Hi, I'm </span><span id="pawan">Pawan Kumar</span> </h1>
 
@@ -41,7 +41,7 @@
 
                 
                 
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" id="contact-github">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" id="github">
 
                 <img src="linkedin.png" alt="" id="linkedin"></a>
             </div>
@@ -185,14 +185,14 @@
 
     
 
-<div id="githubcalender">
+<div id="githubcalender" class="react-activity-calendar">
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
 <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 <h2 style="text-align:center;margin-top: 20px;color:#444444;">My Github Calander</h2>
 <div style="width:70%;margin:auto;margin-bottom: 40px;padding-bottom:20px ; background-color: white"
-    class="calendar">
+    class="calendar"  id="github-streak-stats">
 
 
 </div>
@@ -206,10 +206,10 @@
 </div>
 
 <div id="gitimg">
-    <div>
+    <div  id="github-top-langs">
     <img  id="gitimg1" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pawan8085&theme=radical&langs_count=8" alt="pawan" height="180px"  />
     </div>
-<div>
+<div id="github-stats-card">
     <img   id="gitimg2" align="center" src="https://github-readme-stats.vercel.app/api?username=pawan8085&show_icons=true&theme=radical" height="180px" />
 </div>
 </div>
@@ -217,6 +217,7 @@
     <div id="contact">
         <h1 id="c_heading">Contact</h1>
         <div id="contactlink">
+            <img src="github.png" alt="" id="contact-github">
             <a href="tel:+918085667061"><p id="contact-phone">📞</p> </a>
             <a href = "mailto: kumarpawanm8085@gmail.com"><p  id="contact-email">✉</p></a>
             <img src="linkedin.png" alt=""  id="contact-linkedin">
