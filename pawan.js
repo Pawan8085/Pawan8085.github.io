@@ -97,8 +97,14 @@ function s4(){
     window.open(url,'_blank');
 }
 
-document.querySelector('#contactlink>a+a+img').addEventListener('click',linkedinContact);
+document.getElementById('contact-linkedin').addEventListener('click',linkedinContact);
 function linkedinContact(){
    let url='https://www.linkedin.com/in/pawan-kumar-8589b3232';
+    window.open(url,'_blank');
+}
+
+document.getElementById('contact-github').addEventListener('click',githubContact);
+function githubContact(){
+   let url='https://github.com/pawan8085';
     window.open(url,'_blank');
 }

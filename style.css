@@ -346,6 +346,7 @@ body{
   }
   #contact-github{
     width: 4%;
+    cursor: pointer;
   }
   #contact-phone{
     font-size: 22px;
@@ -355,9 +356,11 @@ body{
   }
   #contact-linkedin{
     width: 4.5%;
+    cursor: pointer;
   }
   #linkedincontact{
     width: 5%;
+   
   }
   
   #githubcalender>h3{
