@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header{
+    height: 90vh;
+    width: 100%;
+   background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+    color: white;
+}
+
+.about{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+
+
+   .gridrow{
+    display: grid;
+      grid-template-columns: repeat(8, 1fr); /* Create 8 equal-width columns */
+      gap: 10px; /* Add gap between columns */
+  }
+  .myimg{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+  .myimg>img{
+    width: 70px;
+    height: 70px;
+
+  } 
+  .myimg>img+p{
+    font-size: 12px;
+  }
+
+  #projects{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  }
+  @media (max-width: 858px){
+    .header{
+     height: 40vh;
+    }
+    .gridrow{
+        grid-template-columns: repeat(4, 1fr); 
+        padding-left: 2px;
+        padding-right: 2px;
+        gap: 5px;
+    }
+    
+    .myimg>img{
+        width: 50px;
+        height: 50px;
+      } 
+      .header{
+        margin-top: 40px;
+      }
+   }
