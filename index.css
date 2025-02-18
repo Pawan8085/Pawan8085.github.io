@@ -54,6 +54,7 @@
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
   }
   @media (max-width: 858px){
+    
     .header{
      height: 40vh;
     }
